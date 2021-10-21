@@ -14,8 +14,9 @@ categories = ["gui"]
 edition = "2018"
 
 [dependencies]
-conrod_core = { path = "../../conrod_core", version = "0.74" }
-wgpu = {git = "https://github.com/gfx-rs/wgpu.git"}
+conrod_core = { path = "../../conrod_core", version = "0.75" }
+wgpu = {git = "git@github.com:nmpribeiro/wgpu.git"}
+# wgpu = "0.10"
 
 [dev-dependencies]
 conrod_example_shared = { path = "../conrod_example_shared", version = "0.75" }
@@ -25,4 +26,4 @@ futures = "0.3"
 image = "0.23"
 winit = "0.25"
 
-web-sys = "0.3.55"
+# web-sys = "0.3.55"
