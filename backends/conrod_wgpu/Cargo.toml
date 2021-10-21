@@ -15,7 +15,7 @@ edition = "2018"
 
 [dependencies]
 conrod_core = { path = "../../conrod_core", version = "0.75" }
-wgpu = {git = "git@github.com:nmpribeiro/wgpu.git"}
+wgpu = {git = "https://github.com/nmpribeiro/wgpu", branch = "feature/conrod_test"}
 # wgpu = "0.10"
 
 [dev-dependencies]
